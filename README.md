@@ -6,6 +6,8 @@ Chat appliatino using python django with real time notification using channels
 
 ##Dependecy downloads
 >apt install libffi-dev
+>apt install redis-server
+>service redis-server restart
 
 ##Run server
 >python manage.py runserver
