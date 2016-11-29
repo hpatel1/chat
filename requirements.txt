@@ -8,3 +8,4 @@ channels==0.17.3
 daphne==0.15
 autobahn==0.16.1
 twisted==16.6.0
+asgi_redis
