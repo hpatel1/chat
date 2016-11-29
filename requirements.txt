@@ -1,0 +1,10 @@
+django==1.9
+djangorestframework==3.4
+django-rest-knox==2.2.0
+djangorestframework-yaml==1.0.
+django-rest-swagger==0.3.10
+markdown==2.6.7
+channels==0.17.3
+daphne==0.15
+autobahn==0.16.1
+twisted==16.6.0

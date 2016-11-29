@@ -1,0 +1,18 @@
+<html>
+<head>
+</head>
+<body>
+    <script>
+        // Note that the path doesn't matter for routing; any WebSocket
+        // connection gets bumped over to WebSocket consumers
+        socket = new WebSocket("ws://localhost:8000/chat-hardik/");
+        socket.onmessage = function(data) {            
+            console.log(data.data);
+        }
+        socket.onopen = function() {
+            console.log("Successfuly connected to channel - 'chat-hardik'")
+        }
+        // Call onopen directly if socket is already open
+        if (socket.readyState == WebSocket.OPEN) socket.onopen();
+    </script>
+</body>
